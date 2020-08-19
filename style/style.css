@@ -1,17 +1,38 @@
 body {
-   background-image: url(geometric-leaves.png);
-   background-position: top-left;
-   background-attachment: fixed;
-}  
+  background-image: url("geometric-leaves.png");
+}
 
-  .card-img-top {
-    float: left;
-    height: fit-content;
-    width: auto;
-    margin: 10px;
-  }
+.navbar-brand {
+  font-size: 42px;
+  color: rgb(27, 179, 179);
+  font-family: Arial, Helvetica, sans-serif;
+  text-emphasis: em;
+}
 
-  .card-text {
-    clear: both;
+.card {
+  margin-top: 15px;
+}
 
-  }
+.card-header {
+  font-size: 42px;
+  color: rgb(27, 179, 179);
+  font-family: Arial, Helvetica, sans-serif;
+  text-emphasis: bold;
+  background-color: antiquewhite;
+
+}
+.card-text{
+  clear: both;
+}
+.img-thumbnail {
+  align-content: center;
+  width: 40%;
+  margin: 10px;
+  border: solid lightgrey 2px;
+ 
+}
+
+/* .card-body {
+  clear: both;
+} */
+
