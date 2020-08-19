@@ -1,0 +1,17 @@
+body {
+   background-image: url(geometric-leaves.png);
+   background-position: top-left;
+   background-attachment: fixed;
+}  
+
+  .card-img-top {
+    float: left;
+    height: fit-content;
+    width: auto;
+    margin: 10px;
+  }
+
+  .card-text {
+    clear: both;
+
+  }
