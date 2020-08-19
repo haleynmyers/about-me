@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/reset.css" />
     <link rel="stylesheet" href="style/style.css" />
-    <link rel="stylesheet" href="style/font-awesome.css">
+    <!--FontAwesome CDN Linked-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!--Bootstrap css CDN-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
     <title>Haley Myers Student Page - Portfolio</title>
@@ -13,63 +15,91 @@
 </head>
 
 <body>
-<!--Navigation bar - white with hamburger dropdown menu-->
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="index.html">Haley Myers</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
+    <!--Navigation bar - white with hamburger dropdown menu-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html" id="navbar-name">Haley Myers</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-        <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-        </li>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
 
-        <li class="nav-item active">
-            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
-        </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
 
-        <li class="nav-item">
-            <a class="nav-link" href="index.html">About</a>
-        </li>
-     
-    </div>
-</nav>
+                <li class="nav-item active">
+                    <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                </li>
 
-<!--Main content container--> 
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">About</a>
+                </li>
+
+        </div>
+    </nav>
+
+    <!--Main content container-->
 
     <div class="container">
-        <div class="row">
-            <div class="col-md-8">
-            <!--Card with header from Bootstrap-->
-            <div class="card">
-                <h5 class="card-header">Portfolio</h5>
-                <div class="card-body">
-                  <h5 class="card-title">Check out the pages I have built so far.</h5>
-                  <!--Links to pages by clicking on the screen shot image- More to come as portfolio expands-->
-                  <a href="https://haleynmyers.github.io/seo-horiseon/" > <img src="style/horiseon-screenshot.png" alt="Screenshot from Horiseon Homepage" class="img-thumbnail"> </a>
-                  <a href="#"> <img src="style/boo-fanpage-screenshot.png" alt="Screenshot from Boo the Dog Fanpage" class="img-thumbnail"/> </a>
-                  <a href="#"> <img src="style/placeholder-coming-soon.jpg" alt="More portfolio images coming soon!" class="img-thumbnail"/> </a>
-                  <a href="#"> <img src="style/placeholder-coming-soon.jpg" alt="More portfolio images coming soon!" class="img-thumbnail"/> </a>
+        <!--Card with header from Bootstrap-->
+        <div class="card">
+            <h5 class="card-header">Portfolio</h5>
+            <div class="card-body">
+                <h5 class="card-title">Check out the pages I have built so far.</h5>
+                <div class="row">
+                    <!--Links to pages by clicking on the screen shot image- More to come as portfolio expands-->
+
+                    <a href="https://haleynmyers.github.io/seo-horiseon/"> <img src="style/horiseon-screenshot.png"
+                            alt="Screenshot from Horiseon Homepage" class="img-thumbnail"> </a>
+                    <a href="#"> <img src="style/boo-fanpage-screenshot.png" alt="Screenshot from Boo the Dog Fanpage"
+                            class="img-thumbnail" /> </a>
+                    <!--Placeholders for future projects-->
+                    <a href="#"> <img src="style/placeholder-coming-soon.jpg" alt="More portfolio images coming soon!"
+                            class="img-thumbnail" /> </a>
+                    <a href="#"> <img src="style/placeholder-coming-soon.jpg" alt="More portfolio images coming soon!"
+                            class="img-thumbnail" /> </a>
+
                 </div>
             </div>
-        </div>
+            <!--Footer with socials icons and links-->
+            <div class="card-footer text-muted">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="https://github.com/haleynmyers" class="fa fa-github fa-3x"></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://www.instagram.com/halesyeah26/" class="fa fa-instagram fa-3x"></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://www.linkedin.com/in/haley-myers-56a4a3b5/"
+                            class="fa fa-linkedin-square fa-3x"></a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="mailto:haleynmyers@gmail.com" class="fa fa-envelope fa-3x"></a>
+                    </div>
+                </div>
+            </div>
+            </div>
         </div>
 
-<!--Footer within container--> 
-        <footer>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-        </footer>
-    
-<!--End of content container-->   
+
+        <!--End of content container-->
     </div>
 
 
-<!--Linking Bootstrap JS and jQuery cdn pages-->
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!--Linking Bootstrap JS and jQuery cdn pages-->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>

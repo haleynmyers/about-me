@@ -2,19 +2,20 @@ body {
   background-image: url("geometric-leaves.png");
 }
 
-.navbar-brand {
-  font-size: 42px;
-  color: rgb(27, 179, 179);
-  font-family: Arial, Helvetica, sans-serif;
-  text-emphasis: em;
+#navbar-name {
+  font-size: 36px;
+  color:  rgb(8, 117, 117);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
 }
 
 .card {
   margin-top: 15px;
+  margin-bottom: 25px;
 }
 
 .card-header {
-  font-size: 42px;
+  font-size: 36px;
   color: rgb(27, 179, 179);
   font-family: Arial, Helvetica, sans-serif;
   text-emphasis: bold;
@@ -25,14 +26,40 @@ body {
   clear: both;
 }
 .img-thumbnail {
-  align-content: center;
-  width: 40%;
+  align-items: center;
+  width: 80%;
   margin: 10px;
   border: solid lightgrey 2px;
  
 }
 
-/* .card-body {
-  clear: both;
-} */
+a: {
+  color: black;
+}
 
+a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+ a:focus {
+   color: rgb(3, 75, 75);
+ }
+
+#footer-icons {
+  align-items: center;
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("font-awesome.min.css");
+  
+}
+/* Style all font awesome icons */
+.fa {
+  padding: 5px;;
+  text-align: center;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
